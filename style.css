@@ -1,0 +1,118 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Prompt", sans-serif;
+}
+
+body {
+    background-color: #0E1218;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    position: relative;
+    z-index: 10;
+}
+
+h1 {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    color: white;
+    text-align: center;
+}
+
+#left .card {
+    background-color: transparent;
+    border-radius: 50px;
+    width: 407px;
+    height: 644px;
+    margin-top: 22px;
+}
+
+#left .card .header {
+    margin-top: 37.78px;
+    margin-left: 33.58px;
+    display: flex;
+    align-items: center;
+    gap: 19.44px;
+}
+
+#left .card .header a {
+    text-decoration: none;
+}
+
+#left .card .header a h2 {
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 36px;
+    color: white;
+}
+
+.image {
+    margin-top: 41.78px;
+    margin-left: 76px;
+    border: 10px solid #8257E5;
+    border-radius: 300px;
+    width: 372px;
+    height: 370.23px;
+    position: relative;
+    z-index: -1;
+}
+
+#left .card .datas {
+    background: linear-gradient(180deg, #000000 3.65%, rgba(70, 69, 69, 0.72) 53.65%, rgba(62, 56, 56, 0.42) 100%);
+    border-radius: 50px;
+    position: absolute;
+    margin-top: -180px;
+    margin-left: 21.13px;
+}
+
+#left .card .datas ul {
+    list-style: none;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+#left .card .datas ul li {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: white;
+    display: flex;
+    align-items: center;
+    margin-bottom: 8.13px;
+    gap: 9px;
+}
+
+#left .card .footer {
+    float: right;
+    margin-top: 30px;
+}
+
+#right {
+    background-color: #0E1218;
+    padding-left: 154px;
+    height: 110vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#right button {
+    background: black;
+    border: 2px solid #1A1A1A;
+    border-radius: 15px;
+    color: white;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 23px;
+    width: 229px;
+    height: 59.47px;
+    cursor: pointer;
+    margin-top: 33px;
+}
