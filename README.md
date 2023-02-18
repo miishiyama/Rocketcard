@@ -6,7 +6,7 @@ Projeto de um desafio da Rocketseat de desenvolver um card que traga as informa�
 
 ## Layout 🔖
 Segue abaixo o layout deste projeto:
-- [Figma]()
+- [Figma](https://www.figma.com/file/GYVKvRwAMwsAlkaP1TUkvX/DD-%2F-Rocketcard-(Copy)?t=98yV7Rbpy1bIUegO-6)
 
 ## Instalação 🛠
 Siga esses passos para instalar o repositório na sua máquina:
