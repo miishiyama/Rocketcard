@@ -14,6 +14,7 @@ function getRandomColor() {
 }
 
 const user = "miishiyama"
+
 const url = `https://api.github.com/users/${ user }`
 
 function changeColor() {
@@ -24,7 +25,10 @@ function changeColor() {
             <h1>
                 Compartilhe seu #rocketcard
             </h1>
-            <div class="card" style="border-left: 16px solid ${ randomColor }; border-right: 15px solid ${ randomColor }; border-top: 24px solid ${ randomColor }; border-bottom: 25px solid ${ randomColor };">
+            <div 
+                class="card" 
+                style="border-left: 16px solid ${ randomColor }; border-right: 15px solid ${ randomColor }; border-top: 24px solid ${ randomColor }; border-bottom: 25px solid ${ randomColor };"
+            >
                 <div class="header">
                     <img src="./assets/logo.svg" alt="Logo da Rocketseat">
                     <a href="${ data.html_url }" target="_blank">
