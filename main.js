@@ -27,7 +27,7 @@ function changeColor() {
             </h1>
             <div 
                 class="card" 
-                style="border-left: 16px solid ${ randomColor }; border-right: 15px solid ${ randomColor }; border-top: 24px solid ${ randomColor }; border-bottom: 25px solid ${ randomColor };"
+                style="border-left: 16px solid ${ randomColor }; border-right: 15px solid ${ randomColor }; border-top: 24px solid ${ randomColor }; border-bottom: 25px solid ${ randomColor }"
             >
                 <div class="header">
                     <img src="./assets/logo.svg" alt="Logo da Rocketseat">
